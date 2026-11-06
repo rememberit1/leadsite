@@ -1,0 +1,21 @@
+:root{--b:#0b5cad;--d:#0a2540;--a:#e8590c;--bg:#f7f9fc}
+*{box-sizing:border-box}body{margin:0;font:17px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#1b2430;background:#fff;padding-bottom:64px}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+header{background:var(--d);color:#fff}header .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;padding:10px 16px}
+.logo{color:#fff;font-weight:700;text-decoration:none;margin-right:auto}nav a{color:#cfe2ff;margin-right:12px;text-decoration:none;font-size:15px}
+h1{font-size:1.75rem;line-height:1.25;margin:.4em 0}h2{font-size:1.3rem;margin-top:1.6em}
+a{color:var(--b)}.btn{display:inline-block;background:var(--a);color:#fff;padding:12px 20px;border-radius:8px;font-weight:700;text-decoration:none}
+.btn.sm{padding:6px 12px;font-size:15px}.lead{font-size:1.1rem}
+.quick{background:var(--bg);border-left:4px solid var(--b);padding:12px 16px;border-radius:6px}
+.crumbs{font-size:13px;color:#667;margin-top:12px}.small{font-size:13px;color:#556}
+.grid{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px}
+.grid a{display:block;padding:10px;border:1px solid #dde3ea;border-radius:6px;text-decoration:none}
+details{border-bottom:1px solid #e3e8ef;padding:8px 0}summary{font-weight:600;cursor:pointer}
+.quote{background:var(--bg);padding:16px;border-radius:10px;margin:24px 0;display:grid;gap:10px}
+.quote h2{margin:0}.quote label{display:grid;font-size:15px;font-weight:600;gap:4px}
+.quote input,.quote select,.quote textarea{font:inherit;padding:10px;border:1px solid #c5ced9;border-radius:6px;width:100%}
+.quote button{font:inherit;font-weight:700;background:var(--b);color:#fff;border:0;padding:12px;border-radius:8px;cursor:pointer}
+.hp{position:absolute;left:-9999px}
+footer{background:#eef2f7;margin-top:40px;padding:16px 0}
+.callbar{position:fixed;bottom:0;left:0;right:0;background:var(--a);color:#fff;text-align:center;padding:14px;font-weight:700;text-decoration:none;font-size:18px}
+@media(min-width:900px){.callbar{display:none}body{padding-bottom:0}}
